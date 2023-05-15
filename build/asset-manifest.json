@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c74842ba.css",
+    "main.js": "/static/js/main.d5c17d5d.js",
+    "static/media/background1.mp4": "/static/media/background1.2cbbfeb634ba85f2eee0.mp4",
+    "static/media/Lastvid.mp4": "/static/media/Lastvid.dac004f1b73d77d8f1f6.mp4",
+    "static/media/poiskvirus.mp4": "/static/media/poiskvirus.5693a91e7d2c46ef31de.mp4",
+    "static/media/redirect.mp4": "/static/media/redirect.16f757fb3d789d96bd33.mp4",
+    "static/media/deletevirus.mp4": "/static/media/deletevirus.4f9e6e0663de09e85662.mp4",
+    "static/media/zapusk.mp4": "/static/media/zapusk.2812094d4c75b0b32df1.mp4",
+    "static/media/perehod1.mp4": "/static/media/perehod1.0cc5af16c2d30ef93c73.mp4",
+    "static/media/stop.jpg": "/static/media/stop.40faf9c20dee2bc40b14.jpg",
+    "static/media/backgroundphoto.jpg": "/static/media/backgroundphoto.a0abb7f40aaf86b03859.jpg",
+    "index.html": "/index.html",
+    "main.c74842ba.css.map": "/static/css/main.c74842ba.css.map",
+    "main.d5c17d5d.js.map": "/static/js/main.d5c17d5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c74842ba.css",
+    "static/js/main.d5c17d5d.js"
+  ]
+}
