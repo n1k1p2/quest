@@ -118,7 +118,7 @@
 #k1 {
   background-image: url(video/backgroundphoto.jpg);
   background-repeat: no-repeat;
-  background-size: 700px;
+  background-size: 100%;
 }
 #CustomCharacters-h11 {
   color: #56C4C0;
