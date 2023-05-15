@@ -19,6 +19,26 @@ import Box from '@mui/material/Box';
 import vidperehod3 from './video/poiskvirus.mp4';
 import deletevirus from './video/deletevirus.mp4';
 import lastvid from './video/Lastvid.mp4';
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBQvKo5F90c5nNpSHwH3CW-Z01og4CtsT4",
+  authDomain: "quest-e1ab5.firebaseapp.com",
+  projectId: "quest-e1ab5",
+  storageBucket: "quest-e1ab5.appspot.com",
+  messagingSenderId: "207735577868",
+  appId: "1:207735577868:web:0ad1d0184c329139cafd29",
+  measurementId: "G-JPPVG182MT"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 /* ------------------------------------------
 ---
 --------------------------- *  
