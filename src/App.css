@@ -1,38 +1,180 @@
 .App {
-  text-align: center;
+  width: 100vw;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-text-middle {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-text-middle-step1 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header-text-middle h1 {
+  color: #1EFD4A;
 }
+.header-text-middle-step1 h1 {
+  padding-top: 100px;
+  color: #1EFD4A;
+}
+#CustomCharacters-h1
+{
+  font-family: monospace;
+  font-size: 2rem;
+  margin-top: -15px;
+  
+}
+.video {
+  position: absolute;
+  width: 100%;
+  height: 700;
+  top: 100;
+  left: 0;
+}
+.AdminPanel {
+  display: flex;
+  width: 100%;
+  height: 1200px;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+.AdminPanel-h1 {
+  font-family: 'Verdana';
+  font-size: 40px;
+  text-transform: uppercase;
+  color:black;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+#CustomCharacters1-h2
+{
+  color:#2C9F98;
+  font-family: monospace;
+  font-size: 2rem;
+  margin-top: -10px;
+}
+.field {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.passwordinput {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  border: 4px solid #2C9F98;
+}
+.passwordinput::placeholder {
+  color: #2C9F98;
+  font-family: monospace;
+}
+.passwordinput {
+  color: #2C9F98;
+}
+.field-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.field-button {
+  width: 30%;
+  position: absolute;
+  margin-top: 60px;
+  border-radius: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  height: 30px;
+  border-color: #2C9F98;
+  color: #2C9F98;
+}
+.form-input {
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 4px solid #2C9F98;
+  border-radius: 10px;
+  height: 40px;
+  text-align: center;
+  color: #2C9F98;
+}
+.form-input::placeholder {
+  color: #2C9F98;
+}
+.form-label {
+  width: 50%;
+}
+#k1 {
+  background-image: url(video/backgroundphoto.jpg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+}
+#CustomCharacters-h11 {
+  color: #56C4C0;
+  font-family: monospace;
+  font-size: 2rem;
+  margin-top: -15px;
+}
+#k123 {
+  background-image: url(video/stop.jpg);
+  background-size: 100%;
+  padding-top: 100px;
+}
+.kl123 {
+  color: #56C4C0;
+  font-family: monospace;
+  font-size: 1.7rem;
+  margin-top: -25px;
+}
+#j1 {
+  font-size: 1rem;
+  margin-top: -10px;
+}
+#j12 {
+  font-size: 1.2rem;
+  margin-top: -10px;
+  color: red;
+}
+.VolumeBar > * { background-color:#56C4C0 !important;}
+.VolumeBar{background-color:gray !important;}
+.button-error {
+  margin-top: -200px;
+}
+.kl1234 {
+  font-family: monospace;
+  color: #56C4C0;
+  margin-top: 90px;
+}
+.jk12 {
+  font-family: monospace;
+  margin-top: 90px;
+  color: red;
+  font-size: 2rem;
+}
+.kl12345 {
+  font-family: monospace;
+  color: #56C4C0;
+  margin-top: -10px;
+}
+.lk123 {
+  margin-top: 90px;
+  font-family: monospace;
+  color: #56C4C0;
+  font-size: 1.4rem;
+}
+.lk1234 {
+  font-family: monospace;
+  font-size: 1.4rem;
+  color: #56C4C0;
 }
