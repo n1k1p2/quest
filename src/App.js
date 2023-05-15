@@ -4,18 +4,14 @@ import './App.css';
 import * as React from "react";
 import { useDencrypt } from "use-dencrypt-effect";
 import Button from '@mui/material/Button';
-import video from './video/background1.mp4';
-import { Input } from 'react-nice-inputs';
 import { useState } from "react";
 import perehod from './video/redirect.mp4';
 import { useEffect } from 'react';
-import { Redirect } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
 import perehodfinger from './video/perehod1.mp4';
 import zapusk from './video/zapusk.mp4';
 import LinearProgress from '@mui/material/LinearProgress';
 import Stack from '@mui/material/Stack';
-import Box from '@mui/material/Box';
 import vidperehod3 from './video/poiskvirus.mp4';
 import deletevirus from './video/deletevirus.mp4';
 import lastvid from './video/Lastvid.mp4';
@@ -194,7 +190,7 @@ function Step2() {
   const navigate = useNavigate();
 
   const handleSubmit = (event) => {
-    if(name==1) {
+    if(name==='1') {
       navigate('/perehod2');
   }
 }
@@ -392,7 +388,7 @@ function Step4() {
   const navigate = useNavigate();
 
   const handleSubmit = (event) => {
-    if(name==2) {
+    if(name==='2') {
       navigate('/perehod3');
   }
 }
@@ -440,7 +436,7 @@ function Step5() {
   const navigate = useNavigate();
 
   const handleSubmit = (event) => {
-    if(name==3) {
+    if(name==='3') {
       navigate('/step6');
   }
 }
@@ -492,7 +488,7 @@ const Text4 = () => {
   const [name, setName] = useState("");
   const navigate = useNavigate();
   const handleSubmit = (event) => {
-    if(name==4) {
+    if(name==='4') {
       navigate('/perehod4');
   }
 }
@@ -557,18 +553,6 @@ function Perehod4(){
     
   );
 }
-const Text6 = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setIsVisible(true), 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  return isVisible ? <div><h2 className='lk1234'>Переход в штатный режим...</h2><Stack sx={{ width: '100%', color: '' }} spacing={2}>
-  <LinearProgress className="VolumeBar"/>
-  </Stack></div> : null;
-};
 function Step7() {
   const [redirect, setRedirect] = useState(false);
 
