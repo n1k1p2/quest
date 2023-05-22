@@ -207,7 +207,7 @@ function Perehod1(){
   useEffect(() => {
     const timer = setTimeout(() => {
       setRedirect(true);
-    }, 2000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
 
