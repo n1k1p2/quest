@@ -178,6 +178,8 @@ function Step2() {
   const handleSubmit = (event) => {
     if(name==='159 G Y15 K6') {
       navigate('/perehod2');
+  }else {
+    navigate('/step2');
   }
 }
 
@@ -376,6 +378,8 @@ function Step4() {
   const handleSubmit = (event) => {
     if(name==='H 91 V 378') {
       navigate('/perehod3');
+  }else {
+    navigate('/step4');
   }
 }
   return (
@@ -424,6 +428,8 @@ function Step5() {
   const handleSubmit = (event) => {
     if(name==='B Z 246 T5 X7') {
       navigate('/step6');
+  }else{
+    navigate('/step5');
   }
 }
   return (
@@ -476,6 +482,8 @@ const Text4 = () => {
   const handleSubmit = (event) => {
     if(name==='9 9 10 9 10') {
       navigate('/perehod4');
+  }else {
+    navigate('/step6');
   }
 }
   const [isVisible, setIsVisible] = useState(false);
