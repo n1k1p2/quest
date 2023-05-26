@@ -176,7 +176,7 @@ function Step2() {
   const navigate = useNavigate();
 
   const handleSubmit = (event) => {
-    if(name==='159 G Y15 K6') {
+    if(name==='9 9 10 9 10') {
       navigate('/perehod2');
   }else {
     navigate('/step2');
@@ -376,7 +376,7 @@ function Step4() {
   const navigate = useNavigate();
 
   const handleSubmit = (event) => {
-    if(name==='H 91 V 378') {
+    if(name==='159GY15K6') {
       navigate('/perehod3');
   }else {
     navigate('/step4');
@@ -426,7 +426,7 @@ function Step5() {
   const navigate = useNavigate();
 
   const handleSubmit = (event) => {
-    if(name==='B Z 246 T5 X7') {
+    if(name==='H91V378') {
       navigate('/step6');
   }else{
     navigate('/step5');
@@ -480,7 +480,7 @@ const Text4 = () => {
   const [name, setName] = useState("");
   const navigate = useNavigate();
   const handleSubmit = (event) => {
-    if(name==='9 9 10 9 10') {
+    if(name==='BZ246T5X7') {
       navigate('/perehod4');
   }else {
     navigate('/step6');
