@@ -176,7 +176,7 @@ function Step2() {
   const navigate = useNavigate();
 
   const handleSubmit = (event) => {
-    if(name==='9 9 10 9 10') {
+    if(name==='9910910') {
       navigate('/perehod2');
   }else {
     navigate('/step2');
